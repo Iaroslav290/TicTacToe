@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C41FBB5B29B4141500241B81 /* ButtonSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FBB5A29B4141500241B81 /* ButtonSizeViewController.swift */; };
+		C41FBB5D29B4143C00241B81 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FBB5C29B4143C00241B81 /* StackViewController.swift */; };
 		C4A9611E29B19DFB0021F236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A9611D29B19DFB0021F236 /* AppDelegate.swift */; };
 		C4A9612029B19DFB0021F236 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A9611F29B19DFB0021F236 /* SceneDelegate.swift */; };
 		C4A9612229B19DFB0021F236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A9612129B19DFB0021F236 /* ViewController.swift */; };
-		C4A9612529B19DFB0021F236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A9612329B19DFB0021F236 /* Main.storyboard */; };
 		C4A9612729B19DFC0021F236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A9612629B19DFC0021F236 /* Assets.xcassets */; };
 		C4A9612A29B19DFC0021F236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A9612829B19DFC0021F236 /* LaunchScreen.storyboard */; };
 		C4A9613529B19DFC0021F236 /* _______________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A9613429B19DFC0021F236 /* _______________Tests.swift */; };
@@ -36,17 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4A9611A29B19DFB0021F236 /* крестики нолики.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "крестики нолики.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41FBB5A29B4141500241B81 /* ButtonSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSizeViewController.swift; sourceTree = "<group>"; };
+		C41FBB5C29B4143C00241B81 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		C4A9611A29B19DFB0021F236 /* tic tac toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tic tac toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A9611D29B19DFB0021F236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4A9611F29B19DFB0021F236 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C4A9612129B19DFB0021F236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C4A9612429B19DFB0021F236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4A9612629B19DFC0021F236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4A9612929B19DFC0021F236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4A9612B29B19DFC0021F236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4A9613029B19DFC0021F236 /* крестики ноликиTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "крестики ноликиTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A9613029B19DFC0021F236 /* tic tac toeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tic tac toeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A9613429B19DFC0021F236 /* _______________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______________Tests.swift"; sourceTree = "<group>"; };
-		C4A9613A29B19DFC0021F236 /* крестики ноликиUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "крестики ноликиUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A9613A29B19DFC0021F236 /* tic tac toeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tic tac toeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A9613E29B19DFC0021F236 /* _______________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______________UITests.swift"; sourceTree = "<group>"; };
 		C4A9614029B19DFC0021F236 /* _______________UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______________UITestsLaunchTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,7 +81,7 @@
 		C4A9611129B19DFB0021F236 = {
 			isa = PBXGroup;
 			children = (
-				C4A9611C29B19DFB0021F236 /* крестики нолики */,
+				C4A9611C29B19DFB0021F236 /* tictactoe */,
 				C4A9613329B19DFC0021F236 /* крестики ноликиTests */,
 				C4A9613D29B19DFC0021F236 /* крестики ноликиUITests */,
 				C4A9611B29B19DFB0021F236 /* Products */,
@@ -89,25 +91,26 @@
 		C4A9611B29B19DFB0021F236 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4A9611A29B19DFB0021F236 /* крестики нолики.app */,
-				C4A9613029B19DFC0021F236 /* крестики ноликиTests.xctest */,
-				C4A9613A29B19DFC0021F236 /* крестики ноликиUITests.xctest */,
+				C4A9611A29B19DFB0021F236 /* tic tac toe.app */,
+				C4A9613029B19DFC0021F236 /* tic tac toeTests.xctest */,
+				C4A9613A29B19DFC0021F236 /* tic tac toeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4A9611C29B19DFB0021F236 /* крестики нолики */ = {
+		C4A9611C29B19DFB0021F236 /* tictactoe */ = {
 			isa = PBXGroup;
 			children = (
 				C4A9611D29B19DFB0021F236 /* AppDelegate.swift */,
 				C4A9611F29B19DFB0021F236 /* SceneDelegate.swift */,
 				C4A9612129B19DFB0021F236 /* ViewController.swift */,
-				C4A9612329B19DFB0021F236 /* Main.storyboard */,
+				C41FBB5A29B4141500241B81 /* ButtonSizeViewController.swift */,
+				C41FBB5C29B4143C00241B81 /* StackViewController.swift */,
 				C4A9612629B19DFC0021F236 /* Assets.xcassets */,
 				C4A9612829B19DFC0021F236 /* LaunchScreen.storyboard */,
 				C4A9612B29B19DFC0021F236 /* Info.plist */,
 			);
-			path = "крестики нолики";
+			path = tictactoe;
 			sourceTree = "<group>";
 		};
 		C4A9613329B19DFC0021F236 /* крестики ноликиTests */ = {
@@ -130,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4A9611929B19DFB0021F236 /* крестики нолики */ = {
+		C4A9611929B19DFB0021F236 /* tic tac toe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4A9614429B19DFC0021F236 /* Build configuration list for PBXNativeTarget "крестики нолики" */;
+			buildConfigurationList = C4A9614429B19DFC0021F236 /* Build configuration list for PBXNativeTarget "tic tac toe" */;
 			buildPhases = (
 				C4A9611629B19DFB0021F236 /* Sources */,
 				C4A9611729B19DFB0021F236 /* Frameworks */,
@@ -142,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = "крестики нолики";
+			name = "tic tac toe";
 			productName = "крестики нолики";
-			productReference = C4A9611A29B19DFB0021F236 /* крестики нолики.app */;
+			productReference = C4A9611A29B19DFB0021F236 /* tic tac toe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4A9612F29B19DFC0021F236 /* крестики ноликиTests */ = {
+		C4A9612F29B19DFC0021F236 /* tic tac toeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4A9614729B19DFC0021F236 /* Build configuration list for PBXNativeTarget "крестики ноликиTests" */;
+			buildConfigurationList = C4A9614729B19DFC0021F236 /* Build configuration list for PBXNativeTarget "tic tac toeTests" */;
 			buildPhases = (
 				C4A9612C29B19DFC0021F236 /* Sources */,
 				C4A9612D29B19DFC0021F236 /* Frameworks */,
@@ -160,14 +163,14 @@
 			dependencies = (
 				C4A9613229B19DFC0021F236 /* PBXTargetDependency */,
 			);
-			name = "крестики ноликиTests";
+			name = "tic tac toeTests";
 			productName = "крестики ноликиTests";
-			productReference = C4A9613029B19DFC0021F236 /* крестики ноликиTests.xctest */;
+			productReference = C4A9613029B19DFC0021F236 /* tic tac toeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C4A9613929B19DFC0021F236 /* крестики ноликиUITests */ = {
+		C4A9613929B19DFC0021F236 /* tic tac toeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4A9614A29B19DFC0021F236 /* Build configuration list for PBXNativeTarget "крестики ноликиUITests" */;
+			buildConfigurationList = C4A9614A29B19DFC0021F236 /* Build configuration list for PBXNativeTarget "tic tac toeUITests" */;
 			buildPhases = (
 				C4A9613629B19DFC0021F236 /* Sources */,
 				C4A9613729B19DFC0021F236 /* Frameworks */,
@@ -178,9 +181,9 @@
 			dependencies = (
 				C4A9613C29B19DFC0021F236 /* PBXTargetDependency */,
 			);
-			name = "крестики ноликиUITests";
+			name = "tic tac toeUITests";
 			productName = "крестики ноликиUITests";
-			productReference = C4A9613A29B19DFC0021F236 /* крестики ноликиUITests.xctest */;
+			productReference = C4A9613A29B19DFC0021F236 /* tic tac toeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4A9611529B19DFB0021F236 /* Build configuration list for PBXProject "крестики нолики" */;
+			buildConfigurationList = C4A9611529B19DFB0021F236 /* Build configuration list for PBXProject "tic tac toe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4A9611929B19DFB0021F236 /* крестики нолики */,
-				C4A9612F29B19DFC0021F236 /* крестики ноликиTests */,
-				C4A9613929B19DFC0021F236 /* крестики ноликиUITests */,
+				C4A9611929B19DFB0021F236 /* tic tac toe */,
+				C4A9612F29B19DFC0021F236 /* tic tac toeTests */,
+				C4A9613929B19DFC0021F236 /* tic tac toeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +236,6 @@
 			files = (
 				C4A9612A29B19DFC0021F236 /* LaunchScreen.storyboard in Resources */,
 				C4A9612729B19DFC0021F236 /* Assets.xcassets in Resources */,
-				C4A9612529B19DFB0021F236 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +262,8 @@
 			files = (
 				C4A9612229B19DFB0021F236 /* ViewController.swift in Sources */,
 				C4A9611E29B19DFB0021F236 /* AppDelegate.swift in Sources */,
+				C41FBB5D29B4143C00241B81 /* StackViewController.swift in Sources */,
+				C41FBB5B29B4141500241B81 /* ButtonSizeViewController.swift in Sources */,
 				C4A9612029B19DFB0021F236 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,25 +290,17 @@
 /* Begin PBXTargetDependency section */
 		C4A9613229B19DFC0021F236 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4A9611929B19DFB0021F236 /* крестики нолики */;
+			target = C4A9611929B19DFB0021F236 /* tic tac toe */;
 			targetProxy = C4A9613129B19DFC0021F236 /* PBXContainerItemProxy */;
 		};
 		C4A9613C29B19DFC0021F236 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4A9611929B19DFB0021F236 /* крестики нолики */;
+			target = C4A9611929B19DFB0021F236 /* tic tac toe */;
 			targetProxy = C4A9613B29B19DFC0021F236 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C4A9612329B19DFB0021F236 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4A9612429B19DFB0021F236 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C4A9612829B19DFC0021F236 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,11 +433,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BBZ3F39P6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "крестики нолики/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.---------------";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.tic-tac-toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,11 +460,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BBZ3F39P6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "крестики нолики/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +472,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.---------------";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.tic-tac-toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -499,7 +495,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/крестики нолики.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/крестики нолики";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tic tac toe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tic tac toe";
 			};
 			name = Debug;
 		};
@@ -518,7 +514,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/крестики нолики.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/крестики нолики";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tic tac toe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tic tac toe";
 			};
 			name = Release;
 		};
@@ -559,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4A9611529B19DFB0021F236 /* Build configuration list for PBXProject "крестики нолики" */ = {
+		C4A9611529B19DFB0021F236 /* Build configuration list for PBXProject "tic tac toe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4A9614229B19DFC0021F236 /* Debug */,
@@ -568,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4A9614429B19DFC0021F236 /* Build configuration list for PBXNativeTarget "крестики нолики" */ = {
+		C4A9614429B19DFC0021F236 /* Build configuration list for PBXNativeTarget "tic tac toe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4A9614529B19DFC0021F236 /* Debug */,
@@ -577,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4A9614729B19DFC0021F236 /* Build configuration list for PBXNativeTarget "крестики ноликиTests" */ = {
+		C4A9614729B19DFC0021F236 /* Build configuration list for PBXNativeTarget "tic tac toeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4A9614829B19DFC0021F236 /* Debug */,
@@ -586,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4A9614A29B19DFC0021F236 /* Build configuration list for PBXNativeTarget "крестики ноликиUITests" */ = {
+		C4A9614A29B19DFC0021F236 /* Build configuration list for PBXNativeTarget "tic tac toeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4A9614B29B19DFC0021F236 /* Debug */,
